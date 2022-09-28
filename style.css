@@ -1,0 +1,172 @@
+@font-face{
+
+font-family: 'MuseoSansCyrl-500';
+
+src: url('MuseoSansCyrl-500.otf');
+font-weight: normal;
+font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body
+{
+		font-family: 'MuseoSansCyrl-500', sans-serif;
+}
+header{
+	font-family: MuseoSansCyrl-500;
+	height: 120px;
+	width: 100%;
+	background: url(up.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+nav{
+	margin-top: 40px;
+	margin-left: 30%;
+}
+main{
+	font-family: MuseoSansCyrl-500;
+	display: flex;
+	flex-direction: column;
+	
+	width: 100%;
+}
+.containers{
+	margin-left: 60%;
+	position: fixed;
+	flex: right;
+}
+.button{
+	margin-top: 0px;
+	margin-left: 70px;
+	padding: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	background-color: rgba(28,28,28,0);
+	color: white;
+	border: none;
+	font-family: MuseoSansCyrl-500;
+	font-size: 25px;
+}
+.button1{
+	font-family: MuseoSansCyrl-500;
+	font-size: 25px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	background-color: rgba(28,28,28,0);
+	color: white;
+	border: none;
+}
+.containers2{
+	font-family: MuseoSansCyrl-500;
+	margin-left: 60%;
+	font-size: 40px;
+	position: fixed;
+	flex: right;
+}
+.button2{
+	font-family: MuseoSansCyrl-500;
+	font-size: 25px;
+	margin-top: 140px;
+	margin-left: 40px;
+	padding: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	background-color: rgba(28,28,28,0);
+	color: white;
+	border: none;
+}
+.button3{
+	font-family: MuseoSansCyrl-500;
+	font-size: 25px;
+	margin-top: 140px;
+	margin-left: -30px;
+	padding: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	background-color: rgba(28,28,28,0);
+	color: white;
+	border: none;
+}
+.main__welcome{
+	background: url(down.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 -100px;
+	text-align: center;
+	padding: 430px 20px 190px 20px;
+}
+.containers{
+    margin-top: 40px; /* отступ сверху */
+    display: flex; /* гибкий контейнер */
+    justify-content: center; /* по центру по горизонтали */
+}    
+.containers2{
+    margin-top: 40px; /* отступ сверху */
+    display: flex; /* гибкий контейнер */
+    justify-content: center; /* по центру по горизонтали */
+} 
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.topnav a.icon{
+	display: none;
+}
+.SpaceX{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.topnav a:hover{
+	border-bottom: 3px solid #3d3d3d;
+	
+}
+
+@media screen and (max-width: 1520px){
+	.topnav a{
+		display: none;
+	}
+	.topnav a.icon{
+		position: absolute;
+		margin-left: 300px;
+		margin-top: -17px;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: 150px;
+	}
+	
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
